@@ -9,6 +9,9 @@ import Productpage from './Pages/Productpage'
 import Cart from './Pages/Cart'
 import LoginSignup from './Pages/LoginSignup'
 import Footer from './Components/Footer/Footer'
+import men_ban from './Components/Assets/Frontend_Assets/banner_mens.png'
+import women_ban from './Components/Assets/Frontend_Assets/banner_women.png'
+import kid_ban from './Components/Assets/Frontend_Assets/banner_kids.png'
 
 function App() {
 
@@ -18,9 +21,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Shop />} />
-        <Route path='/mens' element={<ShopCat cat='men' />} />
-        <Route path='/womens' element={<ShopCat cat='women' />} />
-        <Route path='/kids' element={<ShopCat cat='kid' />} />
+        <Route path='/mens' element={<ShopCat banner={men_ban} cat='men' />} />
+        <Route path='/womens' element={<ShopCat banner={women_ban}  cat='women' />} />
+        <Route path='/kids' element={<ShopCat banner={kid_ban}  cat='kid' />} />
         <Route path='/product/:productid' element={<Productpage />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/login' element={<LoginSignup />} />
