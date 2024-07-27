@@ -4,6 +4,7 @@ import './NewLetter.css'
 function NewsLetter() {
   return (
     <div>NewsLetter</div>
+    
   )
 }
 
