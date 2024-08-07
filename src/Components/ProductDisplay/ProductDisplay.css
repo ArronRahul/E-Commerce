@@ -1,13 +1,18 @@
+body{
+    overflow-x: hidden;
+}
+
 .productdisplay {
-    display: flex;
-    margin: 0px 170px;
+    margin: 0px 50px;
     width: 100vw;
-    box-sizing: border-box; /* Ensure padding/margin doesn't affect width */
+    box-sizing: border-box; 
+    display: flex;
 }
 
 .product-left {
     display: flex;
     gap: 17px;
+    width: 50vw;
 }
 
 .product-img-left {
@@ -28,15 +33,17 @@
 }
 
 .product-right {
-    margin: 0px 70px;
+    margin: 0px 20px;
     display: flex;
     flex-direction: column;
+    width: 50vw;
 }
 
 .product-right h1 {
     font-size: 40px;
     font-weight: 700;
     color: #374151;
+    flex-wrap: wrap;
 }
 
 .product-right-star {
@@ -100,8 +107,7 @@
 }
 
 .product-des {
-    width: 100%;
+    flex-wrap: wrap;
     overflow: hidden;
     word-wrap: break-word;
-    padding: 10px; /* Optional: Add padding for better readability */
 }
