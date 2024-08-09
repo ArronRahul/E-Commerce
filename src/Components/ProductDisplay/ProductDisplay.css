@@ -78,13 +78,11 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
-
 .product-sizes {
     display: flex;
     margin: 30px 0px;
     gap: 20px;
 }
-
 .product-sizes div {
     padding: 18px 24px;
     background: #fbfbfb;
@@ -92,7 +90,6 @@ body{
     border-radius: 3px;
     cursor: pointer;
 }
-
 .product-right button {
     padding: 20px 40px;
     width: 200px;
@@ -105,7 +102,6 @@ body{
     outline: none;
     cursor: pointer;
 }
-
 .product-des {
     flex-wrap: wrap;
     overflow: hidden;
