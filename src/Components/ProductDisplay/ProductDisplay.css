@@ -38,14 +38,12 @@ body{
     flex-direction: column;
     width: 50vw;
 }
-
 .product-right h1 {
     font-size: 40px;
     font-weight: 700;
     color: #374151;
     flex-wrap: wrap;
 }
-
 .product-right-star {
     display: flex;
     align-items: center;
@@ -54,7 +52,6 @@ body{
     color: black;
     font-size: 14px;
 }
-
 .display-price {
     display: flex;
     margin: 40px 0px;
@@ -62,16 +59,13 @@ body{
     font-size: 24px;
     font-weight: 600;
 }
-
 .old {
     color: #374151;
     text-decoration: line-through;
 }
-
 .new {
     color: #bc2f2f;
 }
-
 .product-size {
     margin-top: 55px;
     color: #374151;
